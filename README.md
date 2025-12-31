@@ -1,2 +1,4 @@
 # 30-days-of-code-tcp-2026
-For the 30 days of Code contest 
+Krish Kesharwani </br>
+Information Technology </br>
+Roll No. :- 25118055
