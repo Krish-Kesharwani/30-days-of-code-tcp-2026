@@ -3,6 +3,7 @@ Krish Kesharwani <br>
 Information Technology <br>
 Roll No. :- 25118055 <br>
 <section id = "1st jan">
+
 <hr>
 1st Jan 2026 (Personal Portfolio)
 <p> Solution </p>
@@ -15,4 +16,5 @@ Roll No. :- 25118055 <br>
 <img width="1919" height="1135" alt="Image" src="https://github.com/user-attachments/assets/b807ac42-7f2a-423e-978c-e31e14b93aa1" />
 <img width="1918" height="1110" alt="Image" src="https://github.com/user-attachments/assets/d3e913dd-9e53-4388-a1e6-5f071729eeca" />
 <hr>
+
 </section>
