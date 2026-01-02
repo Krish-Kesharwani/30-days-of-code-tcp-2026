@@ -43,37 +43,53 @@
             </tr>
         </tbody>
     </table>
+    <br>
     <hr>
     <br>
     <form action = "eventform.php">
-        <label for = "text" id = "text">
-            <input type = "text" placeholder = "Enter Your Text">
+        <label>
+            Enter your Name : <input type = "text" >
+        </label>
+        <br><br>
+        <label>
+            Enter you Email : <input type = "email" >
+        </label>
+        <br><br>
+        <label>
+            Enter your Number :  <input type = "text" >
+        </label>
+        <br><br>
+        <label>
+            Enter your date of Birth : <input type = "date" placeholder = "Enter date">
+        </label>
+        <br><br>
+        <label >
+            <p> Select the type of ticket you want : </p>
+            <input type = "radio" value = "VIP" name = "Seating"> VIP Seating <br>
+        </label>
+        <labeL>
+         <input type = "radio" value = "Premium" name = "Seating"> Premium Seating <br>
+        </label>
+        <label>
+            <input type = "radio" value = "General" name = "Seating"> General Seating <br>
         </label>
         <br>
-        <label for = "email" id = "useremail">
-            <input type = "email" placeholder = "Enter Your Email">
+        <label>
+            <p>Select the Workshops you want to attend : </p>
+            <input type = "checkbox" value = "Yoga" name = "Workshop"> Morning Yoga & Stretching <br>
         </label>
-        <br>
-        <label for = "number" id = "usernumber">
-            <input type = "text" placeholder = "Enter Your Number">
+        <label>
+            <input type = "checkbox" value = " Workshop " name = "Workshop">Technical Workshop Session <br>
         </label>
-        <br>
-        <label for = "date" id = "date">
-            <input type = "date" placeholder = "Enter date">
+        <label>
+            <input type = "checkbox" value = " Discussion " name = "Workshop">Group Discussion & Presentation <br>
         </label>
-        <br>
-        <label for = "ticket" id = "tickettype">
-            <input type = "radio" value = "VIP" name = "Seating"> VIP Seating
-            <input type = "radio" value = "Premium" name = "Seating"> Premium Seating
-            <input type = "radio" value = "General" name = "Seating"> General Seating
-        </label>
-        <br>
-        <label for = "workshop" id = "Workshop">
-            <input type = "checkbox" value = "Yoga" name = "Workshop"> Morning Yoga & Stretching
-            <input type = "checkbox" value = " Workshop " name = "Workshop">Technical Workshop Session
-            <input type = "checkbox" value = " Discussion " name = "Workshop">Group Discussion & Presentation
-        </label>
-
+        <br><hr><br>
+        Give your suggestion or feedback below : <br> <br>
+        <textarea name="Comment" row = 5>
+        </textarea>
+        <br><br>
+        <input type= "Submit" value = "Submit"> 
     </form>
 </body>
 </html>
