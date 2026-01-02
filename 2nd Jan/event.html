@@ -3,9 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>  Event  </title>
+    <title> Event  </title>
 </head>
 <body>
-    
+    <table border="1" width = "1000">
+        <caption>
+                <h1> Event Schedule </h1> 
+        </caption>
+
+        <thead>
+            <tr>
+                <th>
+                    Time
+                </th>
+                <th>
+                     Activity 
+                </th>
+                <th>
+                     Venue 
+                </th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <th> 09:00am to 10:00am </th>
+                <th>  Morning Yoga & Stretching </th>
+                <th> College Sports Ground </th>
+            </tr>
+            <tr>
+                <th> 11:00am to 12:30pm </th>
+                <th> Technical Workshop Session </th>
+                <th> Seminar Hall Block B </th>
+            </tr>
+            <tr>
+                <th> 3:00pm to 4:30pm </th>
+                <th> Group Discussion & Presentation </th>
+                <th> Classroom C-204 </th>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+    <br>
+    <form action = "eventform.php">
+        <label for = "text" id = "text">
+            <input type = "text" placeholder = "Enter Your Text">
+        </label>
+        <br>
+        <label for = "email" id = "useremail">
+            <input type = "email" placeholder = "Enter Your Email">
+        </label>
+        <br>
+        <label for = "number" id = "usernumber">
+            <input type = "text" placeholder = "Enter Your Number">
+        </label>
+        <br>
+        <label for = "date" id = "date">
+            <input type = "date" placeholder = "Enter date">
+        </label>
+        <br>
+        <label for = "ticket" id = "tickettype">
+            <input type = "radio" value = "VIP" name = "Seating"> VIP Seating
+            <input type = "radio" value = "Premium" name = "Seating"> Premium Seating
+            <input type = "radio" value = "General" name = "Seating"> General Seating
+        </label>
+        <br>
+        <label for = "workshop" id = "Workshop">
+            <input type = "checkbox" value = "Yoga" name = "Workshop"> Morning Yoga & Stretching
+            <input type = "checkbox" value = " Workshop " name = "Workshop">Technical Workshop Session
+            <input type = "checkbox" value = " Discussion " name = "Workshop">Group Discussion & Presentation
+        </label>
+
+    </form>
 </body>
 </html>
