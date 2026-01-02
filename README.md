@@ -18,3 +18,17 @@ Roll No. :- 25118055 <br>
 <hr>
 
 </section>
+
+
+<section id = "2nd Jan">
+2nd Jan 2026 (Single HTML Page that demonstrate understanding of tables and HTML forms)
+<p> Solution </p>
+<img width="1573" height="523" alt="Image" src="https://github.com/user-attachments/assets/297ba0f3-7e5c-4cd1-b518-1aa2a9652fd5" />
+<img width="1576" height="472" alt="Image" src="https://github.com/user-attachments/assets/d4c4f7ec-7f49-45a1-bf69-a26ea1e83709" />
+<img width="1570" height="472" alt="Image" src="https://github.com/user-attachments/assets/0f373eec-6765-44b7-a642-20e0d9a35a08" />
+<img width="1568" height="397" alt="Image" src="https://github.com/user-attachments/assets/e1f4a5c9-fb79-4ac2-8873-0c8f38cffecc" />
+<br>
+<p> Result </p>
+<img width="1919" height="1131" alt="Image" src="https://github.com/user-attachments/assets/649958ca-ed1a-4252-a4c8-1fc4e615009c" />
+<hr>
+</section>
